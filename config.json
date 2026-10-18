@@ -1,0 +1,329 @@
+{
+  "_README": "ONE config file drives the whole tracker (scraper + dashboard). Edit it by hand, or generate it from your CV using docs/cv-to-config-prompt.md. After editing, commit it and re-run the workflows. All matching is case-insensitive substring on the JOB TITLE unless noted.",
+
+  "profile": {
+    "title": "Chemistry & Lab Job Tracker",
+    "subtitle": "Austin, Texas · United States",
+    "emoji": "🧪"
+  },
+
+  "keywords": {
+    "_comment": "A job title is kept if it contains any of these terms.",
+    "include": [
+      "chemist",
+      "chemistry",
+      "analytical chemist",
+      "analytical chemistry",
+      "laboratory",
+      "lab technician",
+      "laboratory technician",
+      "chemical technician",
+      "lab analyst",
+      "laboratory analyst",
+      "lab scientist",
+      "quality control",
+      "quality assurance",
+      "qc chemist",
+      "qc analyst",
+      "qa analyst",
+      "formulation",
+      "process chemist",
+      "research chemist",
+      "sample preparation",
+      "materials scientist",
+      "materials science",
+      "forensic chemist",
+      "environmental chemist"
+    ],
+    "_exclude_comment": "Titles containing any of these terms are dropped.",
+    "exclude": [
+      "intern",
+      "internship",
+      "co-op",
+      "trainee",
+      "apprentice",
+      "postdoc",
+      "postdoctoral",
+      "work-study",
+      "volunteer",
+      "fellowship"
+    ],
+    "_fuzzy_comment": "Leave these empty to use keyword-only matching.",
+    "fuzzy_seniority": [],
+    "fuzzy_domain": [],
+    "fuzzy_exclude": []
+  },
+
+  "search_terms": {
+    "_comment": "Queries sent to the job boards. The keywords section filters the resulting job titles.",
+    "linkedin": [
+      "chemist",
+      "analytical chemist",
+      "lab technician",
+      "laboratory analyst",
+      "quality control chemist",
+      "quality control analyst",
+      "formulation chemist",
+      "materials scientist"
+    ],
+    "indeed": [
+      "chemist",
+      "lab technician",
+      "laboratory analyst",
+      "quality control",
+      "analytical chemistry",
+      "formulation chemist"
+    ],
+    "glassdoor": [
+      "chemist",
+      "lab technician",
+      "laboratory analyst",
+      "quality control",
+      "analytical chemistry",
+      "formulation chemist"
+    ],
+    "ziprecruiter": [
+      "chemist",
+      "lab technician",
+      "laboratory analyst",
+      "quality control",
+      "analytical chemistry",
+      "formulation chemist"
+    ],
+    "google_jobs": [
+      "chemist",
+      "lab technician",
+      "laboratory analyst",
+      "quality control",
+      "analytical chemistry",
+      "formulation chemist"
+    ],
+    "hiring_cafe": [
+      "chemist",
+      "lab technician",
+      "laboratory analyst",
+      "quality control",
+      "analytical chemistry",
+      "formulation chemist"
+    ],
+    "calcareers": [],
+    "usajobs": [
+      "chemist",
+      "laboratory technician",
+      "chemistry"
+    ],
+    "governmentjobs": [
+      "chemist",
+      "laboratory technician",
+      "laboratory analyst"
+    ],
+    "workday": [
+      "chemist",
+      "lab technician",
+      "laboratory analyst",
+      "quality control"
+    ]
+  },
+
+  "locations": {
+    "_comment": "Austin and nearby cities in Texas.",
+    "linkedin": [
+      {
+        "name": "Austin TX",
+        "location": "Austin, Texas, United States",
+        "geoId": ""
+      }
+    ],
+    "indeed": [
+      {
+        "location": "Austin, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Round Rock, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Pflugerville, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Cedar Park, TX",
+        "country": "USA"
+      }
+    ],
+    "glassdoor": [
+      {
+        "location": "Austin, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Round Rock, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Pflugerville, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Cedar Park, TX",
+        "country": "USA"
+      }
+    ],
+    "ziprecruiter": [
+      {
+        "location": "Austin, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Round Rock, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Pflugerville, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Cedar Park, TX",
+        "country": "USA"
+      }
+    ],
+    "google_jobs": [
+      {
+        "location": "Austin, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Round Rock, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Pflugerville, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Cedar Park, TX",
+        "country": "USA"
+      }
+    ],
+    "hiring_cafe": [
+      {
+        "location": "United States"
+      }
+    ],
+    "_linkedin_partitions_comment": "Optional. Leave empty to use the default single-run backfill.",
+    "linkedin_partitions": {
+      "states": [],
+      "high_volume": {
+        "locations": [],
+        "day_slices": true
+      }
+    }
+  },
+
+  "location_filter": {
+    "_comment": "Matches Austin and nearby locations. Remote and hybrid terms may also include jobs outside the Austin area.",
+    "terms": [
+      "austin",
+      "round rock",
+      "pflugerville",
+      "cedar park",
+      "georgetown, tx",
+      "san marcos, tx",
+      "remote",
+      "hybrid"
+    ]
+  },
+
+  "google_jobs": {
+    "_comment": "Leave queries empty to build searches automatically. API credentials are optional.",
+    "queries": [],
+    "serpapi_api_key": "",
+    "oxylabs_username": "",
+    "oxylabs_password": ""
+  },
+
+  "jobspy": {
+    "_comment": "Optional. Use only if a job board is blocked.",
+    "proxies": [],
+    "user_agent": ""
+  },
+
+  "hiring_cafe": {
+    "_comment": "HiringCafe public pages currently default to the United States.",
+    "max_pages": 3
+  },
+
+  "employers": {
+    "_priority_comment": "Optional companies for the priority digest. Empty list disables this.",
+    "priority": [],
+    "_exclude_comment": "Optional companies to exclude. Empty list disables this.",
+    "exclude": []
+  },
+
+  "priority_topics": {
+    "_comment": "Matching roles receive a priority marker on the dashboard.",
+    "terms": [
+      [
+        "Analytical chemistry",
+        "analytical chemist|analytical chemistry|chromatograph|spectroscop|mass spectromet"
+      ],
+      [
+        "Quality control",
+        "quality control|quality assurance|QC chemist|QA chemist"
+      ],
+      [
+        "Formulation",
+        "formulation|product development"
+      ],
+      [
+        "Materials",
+        "materials scientist|materials science|polymer|coatings|ink"
+      ]
+    ]
+  },
+
+  "role_categories": {
+    "_comment": "Dashboard role categories, applied top-to-bottom to job titles.",
+    "terms": [
+      [
+        "Analytical Chemistry",
+        "analytical chemist|analytical chemistry|chromatograph|spectroscop|mass spectromet"
+      ],
+      [
+        "Quality Control",
+        "quality control|quality assurance|QC chemist|QA chemist"
+      ],
+      [
+        "Laboratory",
+        "laboratory|lab technician|lab analyst|lab scientist|lab manager"
+      ],
+      [
+        "Formulation / R&D",
+        "formulation|research chemist|product development"
+      ],
+      [
+        "Materials",
+        "materials scientist|materials science|polymer|coatings|ink"
+      ],
+      [
+        "Environmental",
+        "environmental chemist|environmental science"
+      ],
+      [
+        "Forensic",
+        "forensic chemist|forensic science"
+      ]
+    ]
+  },
+
+  "notify": {
+    "_comment": "Optional Pushover phone alerts. Requires PUSHOVER_TOKEN and USER secrets.",
+    "min_fit": 75,
+    "weekly_digest": {
+      "_comment": "Optional weekly Pushover digest.",
+      "enabled": false,
+      "days": 7
+    }
+  }
+}
