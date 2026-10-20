@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-10-19 23:58 UTC",
+  "scraped_at": "2026-10-20 05:21 UTC",
   "total": 2,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "ABM Industries Inc.",
@@ -40,24 +40,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Fluor Corp.",
-      "title": "Construction Quality Control Lead I",
-      "location": "Buda, TX, USA",
-      "url": "https://www.indeed.com/viewjob?jk=345ab8631886d564",
-      "direct_url": "https://careers.fluor.com/careers/job/1099556582203",
-      "company_url": "https://www.indeed.com/cmp/Fluor-Corp.",
-      "date_posted": "2026-10-19",
-      "description": "At Fluor, we are proud to design and build projects and careers. We are committed to fostering a welcoming and collaborative work environment that encourages big-picture thinking, brings out the best in our employees, and helps us develop innovative solutions that contribute to building a better world together. If this sounds like a culture you would like to work in, you’re invited to apply for this role.\n\n**Job Description**\n-------------------\n\nThe position reports to the Site Quality Manager or supervisor and provides inspection services to support the site quality program on projects. The purpose of this position is to perform the essential job duties and functions listed below with the overall objective of providing our clients and Fluor with projects that comply with the quality requirements stipulated in our prime contracts.\n\n• Review and become familiar with the project technical requirements such as the prime contract, applicable codes, standards, and specifications\n\n• Monitor/inspect project and construction execution by regular surveillance and/or inspection as directed by the Site Quality Manager or supervisor to ensure that they comply with project requirements. Issue surveillance or inspection reports to appropriate parties and follow up until closure as required.\n\n• Provide on-going oversight support to quality inspection and testing activities within specific area(s) of expertise\n\n• Analyze and make independent recommendations regarding solutions to problems with varying complexity in accordance with organization and/or project objectives and guidelines\n\n• Organize and prioritize a variety of projects and multiple tasks in an effective and timely manner, set priorities, and meet deadlines\n\n• Other duties as assigned\n\n**Basic Job Requirements**\n--------------------------\n\n• Accredited two (2) or three (3) year Technical or Engineering Technology diploma or global equivalent in applicable field of study and four (4) years of work-related experience or a combination of education and directly related experience equal to six (6) years if there is no accreditation; some locations may have additional or different qualifications in order to comply with local regulations Ability to communicate effectively with audiences that include but are not limited to management, coworkers, clients, vendors, contractors, and visitors\n\n• Job related technical knowledge necessary to complete the job\n\n• Ability to learn and apply knowledge of applicable local, state/province, and federal/national statutes and guidelines\n\n• Ability to attend to detail and work in a time-conscious and time-effective manner\n\n**Other Job Requirements**\n--------------------------\n\n• Act as a qualified Auditor to perform and report quality audits of a variety of construction activities\n\n• Perform physical inspection of a variety of discipline activities which may include but not limited to: welding, piping, civil, concrete, buildings, fixed and rotating equipment, electrical, control systems, coatings, insulation, and non-destructive testing\n\n**Preferred Qualifications**\n----------------------------\n\n• Two (2) years of experience working as a quality inspector\n\n• Certification by a recognized authority (i.e. ASNT, AWS, API, NACE) is preferred; note that, as a minimum, personnel who will be performing welding examinations, inspections and/or reviewing of radiographs must be capable of taking and passing Fluor’s internal certifications for visual examiners/inspectors and radiographic interpreters\n\n• Intermediate or expert computer and software skills to include the use of word processing and email as well as the basic or intermediate use of spreadsheets and electronic presentations\n\n• Oral and written communication skills\n\n• Ability to work well with others\n\n• Ability to speak/read multiple languages\n\nWe are an equal opportunity employer. All qualified individuals will receive consideration for employment without regard to race, color, age, sex, sexual orientation, gender identity, religion, national origin, disability, veteran status, genetic information, or any other criteria protected by governing law.\n\nBenefits Statement: Fluor is proud to offer a comprehensive benefits package designed to promote employee health, wellness, and financial security. Our offerings include medical, dental and vision plans, EAP, disability coverage, life insurance, AD&D, voluntary benefit plans, 401(k) with a company match, paid time off (personal, bereavement, sick, holidays) for salaried employees, paid sick leave per state requirement for craft employees, parental leave, and training and development courses.\n\nMarket Rate Statement: The market rate for the role is typically at the mid-point of the salary range; however, variations in final salary are determined by additional factors such as the candidate’s qualifications, relevant years of experience, geographic location, internal pay equity, and prevailing market conditions for the specific role.\n\nNotice to Candidates: Background checks are carried out as part of any conditional offer made, including (but not limited to & role dependent) education, professional registration, employment, references, passport verifications and Global Watchlist screening.\n\nTo be Considered Candidates: Must be authorized to work in the country where the position is located.\n\nSalary Range: $60,000.00 - $111,000.00",
-      "salary": "$60k–$111k/yr",
-      "salary_source": "direct_data",
-      "salary_currency": "USD",
-      "job_type": "",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "emails": "",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
