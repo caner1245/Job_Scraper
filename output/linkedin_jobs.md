@@ -1,6 +1,8 @@
 # 🔥 LinkedIn — Chemistry & Lab Roles
-*Last updated: 2026-10-22 19:13 UTC*
+*Last updated: 2026-10-22 22:20 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**1 new role(s)** since last run · 1 total in last 1h
 
-No new roles since the last run.
+### [Senior Quality Control Administrator](https://www.linkedin.com/jobs/view/4480074908/) — UFCU
+- 📍 **Location:** Austin, TX
+- 🕒 **Posted:** 2026-10-22
